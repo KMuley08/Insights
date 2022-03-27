@@ -31,6 +31,8 @@ from datetime import datetime
 from pytz import timezone
 
 class AgentDaemonExecutor:
+    num = 12
+    
     def __init__(self):
         self.loadConfig()
         self.setupLogging()
